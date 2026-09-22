@@ -1,14 +1,44 @@
+```html
 <!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Azure-kysely</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kysymyksiä ja vastauksia</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1>Azure-kysely</h1>
+    <div class="container">
+        <h1>Kysymyksiä ja vastauksia</h1>
 
-    <script src="js/functions.js"></script>
+        <div class="question" onclick="showAnswer(1)">
+            <h2>1. Mistä azure saa nimensä?</h2>
+            <p id="answer1" class="answer">englanninkielisestä sanasta azure, joka tarkoittaa asurinsinistä eli kirkkaan ja pilvettömän taivaan väriä</p>
+        </div>
+
+        <div class="question" onclick="showAnswer(2)">
+            <h2>2. minkä värinen azure logo on?</h2>
+            <p id="answer2" class="answer">Sininen.</p>
+        </div>
+
+        <div class="question" onclick="showAnswer(3)">
+            <h2>3. Milloin azure luotiin?</h2>
+            <p id="answer3" class="answer">2010.</p>
+        </div>
+
+        <div class="question" onclick="showAnswer(4)">
+            <h2>4. miksi yritykset valitsevat azuren</h2>
+            <p id="answer4" class="answer">Se on skaalautuva, tietorva ja kustannustehokas.</p>
+        </div>
+
+        <div class="question" onclick="showAnswer(5)">
+            <h2>5. Miten azuren palveluista maksetaan?</h2>
+            <p id="answer5" class="answer">pääsääntöisesti käytönmukaan.</p>
+        </div>
+    </div>
+
+    <script src="js/function.js"></script>
 </body>
 </html>
+```
